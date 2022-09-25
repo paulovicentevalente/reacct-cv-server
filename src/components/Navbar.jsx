@@ -2,8 +2,6 @@ import React, {useState} from "react";
 import menuItem from "../htmlTextsEnglish";
 import Title from "./Title"
 
-
-
 function Navbar() {
     
         const [idiomClicked, setIdiomClicked] = useState("english");

@@ -18,7 +18,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem: "myName",
-        content: [1, (<a className="navbar-brand" href="">Paulo Vicente Valente</a>)],
+        content: [1, (<a className="navbar-brand" href="http://http://www.paulovalente.net/">Paulo Vicente Valente</a>)],
         idiom: "any"
     },
     {
@@ -48,7 +48,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem: "linkMenu",
-        content: [1, (<a className="nav-link" aria-label="Linkedin" href="https://www.linkedin.com/in/paulovicentevalente/" target="_blank"><i className="brands fa-brands fa-linkedin"></i></a>)],
+        content: [1, (<a className="nav-link" aria-label="Linkedin" href="https://www.linkedin.com/in/paulovicentevalente/" target="_blank" rel="noreferrer"><i className="brands fa-brands fa-linkedin"></i></a>)],
         idiom: "english"
     },
     {
@@ -58,7 +58,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem: "linkMenu",
-        content: [1, (<a className="nav-link" aria-label="Mailchimp" href="http://eepurl.com/hWW8GL" target="_blank"><i className="brands fa-solid fa-envelope"></i></a>)],
+        content: [1, (<a className="nav-link" aria-label="Mailchimp" href="http://eepurl.com/hWW8GL" target="_blank" rel="noreferrer"><i className="brands fa-solid fa-envelope"></i></a>)],
         idiom: "english"
     },
     {
@@ -68,7 +68,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem: "portugues",
-        content: [1, (<a className="nav-link" href="#">pt-br</a>)],
+        content: [1, (<a className="nav-link" href="#portugues">pt-br</a>)],
         idiom: "english"
     },
     {
@@ -78,7 +78,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem:"myPhoto",
-        content: [1, (<p><img className="title-image" src={photo} alt="photo-paulo"></img></p>)],
+        content: [1, (<p><img className="title-image" src={photo} alt="paulo"></img></p>)],
         idiom: "any"
     },
     {
@@ -118,7 +118,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://atento.com/pb/" target="_blank">Atento</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://atento.com/pb/" target="_blank" rel="noreferrer">Atento</a></p>)],
         idiom: "english"
     },
     {
@@ -158,7 +158,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://www.vivo.com.br/" target="_blank">Vivo</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://www.vivo.com.br/" target="_blank" rel="noreferrer">Vivo</a></p>)],
         idiom: "english"
     },
     {
@@ -191,7 +191,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescription",
-        content: [1, (<p className="experience-text">Manager of <em>Product Development team</em> (engineers/ computer science):</p>), (<p className="experience-text">Leader of team responsible for technology and products: <em>new services and products with customer-centric approach</em>, innovation, product backlog, <em>design trade-offs analysis, launch risk analysis</em>, enhancement (usability and blueprint), <em>lifecycle, tech roadmap, RFPs, contract management, partnership maintenance</em>, bill of materials, training development (customer care and sales force), regulatory trends, families: <em>smartphone/ <a href='https://globoplay.globo.com/v/4880435/' target='_blank'>modem</a>/ CPE/ smartcard/ IoT/ M2M</em>, country representative at the following <em>International forums</em>: PTCRB, CDG and Telefónica Devices.</p>),(<p className="experience-text">Led <em>Go-to-MKT (multidisciplinary) team</em>:</p>),(<p>BTL (Below the line): product and technnology communication(briefing) and internal press office support: crisis and press release.</p>)],
+        content: [1, (<p className="experience-text">Manager of <em>Product Development team</em> (engineers/ computer science):</p>), (<p className="experience-text">Leader of team responsible for technology and products: <em>new services and products with customer-centric approach</em>, innovation, product backlog, <em>design trade-offs analysis, launch risk analysis</em>, enhancement (usability and blueprint), <em>lifecycle, tech roadmap, RFPs, contract management, partnership maintenance</em>, bill of materials, training development (customer care and sales force), regulatory trends, families: <em>smartphone/ <a href='https://globoplay.globo.com/v/4880435/' target='_blank'  rel="noreferrer">modem</a>/ CPE/ smartcard/ IoT/ M2M</em>, country representative at the following <em>International forums</em>: PTCRB, CDG and Telefónica Devices.</p>),(<p className="experience-text">Led <em>Go-to-MKT (multidisciplinary) team</em>:</p>),(<p>BTL (Below the line): product and technnology communication(briefing) and internal press office support: crisis and press release.</p>)],
         idiom: "english"
     },
     {
@@ -201,7 +201,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://www.uff.br/" target="_blank">Universidade Federal Fluminense</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://www.uff.br/" target="_blank" rel="noreferrer">Universidade Federal Fluminense</a></p>)],
         idiom: "english"
     },
     {
@@ -231,7 +231,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Engineering MBA and <a href="http://www.telecomuff.com/uploads/6/9/4/8/6948141/especializac%CC%A7a%CC%83o_em_comunicac%CC%A7o%CC%83es_mo%CC%81veis_-_projeto_rj_.pdf" target="_blank">Post Graduation</a> <em>Invited Professor</em>. Provided classes on WLAN, Mobile Devices, Core Network, CDMA2000.</p>)],
+        content: [1, (<p>Engineering MBA and <a href="http://www.telecomuff.com/uploads/6/9/4/8/6948141/especializac%CC%A7a%CC%83o_em_comunicac%CC%A7o%CC%83es_mo%CC%81veis_-_projeto_rj_.pdf" target="_blank" rel="noreferrer">Post Graduation</a> <em>Invited Professor</em>. Provided classes on WLAN, Mobile Devices, Core Network, CDMA2000.</p>)],
         idiom: "english"
     },
     {
@@ -281,7 +281,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://www.movistar.es/" target="_blank">Telefónica Móviles de España</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://www.movistar.es/" target="_blank" rel="noreferrer">Telefónica Móviles de España</a></p>)],
         idiom: "english"
     },
     {
@@ -401,7 +401,7 @@ const htmlTextsEnglish = [
         totalItem: 2,
         numberItem: 1,
         typeItem:"mainItems",
-        content: [4, (<p><a href="https://mitsloan.credential.getsmarter.com/6b5c48de-90e3-4c3c-8816-79f7c3913ba2#gs.r8cb6z"  target="_blank">MIT AI Business Application</a></p>), (<p><a href="https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/350/2142.pdf?sequence=1"  target="_blank">FGV Master Economy</a></p>), (<p>FGV MBA Telecom Management</p>), (<p>UFF Bachelor Telecom Engineering</p>)],
+        content: [4, (<p><a href="https://mitsloan.credential.getsmarter.com/6b5c48de-90e3-4c3c-8816-79f7c3913ba2#gs.r8cb6z"  target="_blank" rel="noreferrer">MIT AI Business Application</a></p>), (<p><a href="https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/350/2142.pdf?sequence=1"  target="_blank" rel="noreferrer">FGV Master Economy</a></p>), (<p>FGV MBA Telecom Management</p>), (<p>UFF Bachelor Telecom Engineering</p>)],
         idiom: "english"
     },
     {
@@ -441,7 +441,7 @@ const htmlTextsEnglish = [
         totalItem: 2,
         numberItem: 1,
         typeItem:"moreItems",
-        content: [4, (<p><a href="https://patents.justia.com/patent/8850463" target="_blank">Patent Portable Devices with Digital TV</a></p>), (<p><a href="https://github.com/paulovicentevalente" target="_blank">Programming Languages<GitHubIcon color="primary" fontSize="medium"/></a></p>), (<p>International Scholarship Germany</p>), (<p><a href="https://www.interaction-design.org/paulo-vicente-dutra-da-silva-santos-valente" target="_blank">Service & Product Design</a></p>)],
+        content: [4, (<p><a href="https://patents.justia.com/patent/8850463" target="_blank" rel="noreferrer">Patent Portable Devices with Digital TV</a></p>), (<p><a href="https://github.com/paulovicentevalente" target="_blank" rel="noreferrer">Programming Languages<GitHubIcon color="primary" fontSize="medium"/></a></p>), (<p>International Scholarship Germany</p>), (<p><a href="https://www.interaction-design.org/paulo-vicente-dutra-da-silva-santos-valente" target="_blank" rel="noreferrer">Service & Product Design</a></p>)],
         idiom: "english"
     },
     {
@@ -471,7 +471,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem: "linkMenu",
-        content: [1, (<a className="nav-link" aria-label="Linkedin" href="https://www.linkedin.com/in/paulovicentevalente/?locale=pt_BR" target="_blank"><i className="brands fa-brands fa-linkedin"></i></a>)],
+        content: [1, (<a className="nav-link" aria-label="Linkedin" href="https://www.linkedin.com/in/paulovicentevalente/?locale=pt_BR" target="_blank" rel="noreferrer"><i className="brands fa-brands fa-linkedin"></i></a>)],
         idiom: "portugues"
     },
     {
@@ -481,7 +481,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem: "linkMenu",
-        content: [1, (<a className="nav-link" aria-label="Mailchimp" href="http://eepurl.com/hWW8GL" target="_blank"><i className="brands fa-solid fa-envelope"></i></a>)],
+        content: [1, (<a className="nav-link" aria-label="Mailchimp" href="http://eepurl.com/hWW8GL" target="_blank" rel="noreferrer"><i className="brands fa-solid fa-envelope"></i></a>)],
         idiom: "portugues"
     },
     {
@@ -491,7 +491,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem: "english",
-        content: [1, (<a className="nav-link" href="#">en</a>)],
+        content: [1, (<a className="nav-link" href="#english">en</a>)],
         idiom: "portugues"
     },
     {
@@ -531,7 +531,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://atento.com/pb/" target="_blank">Atento</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://atento.com/pb/" target="_blank" rel="noreferrer">Atento</a></p>)],
         idiom: "portugues"
     },
     {
@@ -571,7 +571,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://www.vivo.com.br/" target="_blank">Vivo</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://www.vivo.com.br/" target="_blank" rel="noreferrer">Vivo</a></p>)],
         idiom: "portugues"
     },
     {
@@ -604,7 +604,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescription",
-        content: [1, (<p className="experience-text">Gerente da <em>equipe de Desenvolvimento de Produto</em> (engenheiros/ciência da computação):</p>), (<p>Líder da equipe responsável por tecnologia e produtos: <em>novos serviços e produtos com abordagem centrada no cliente</em>, inovação, backlog do produto, <em>análise de trade-offs de design, análise de risco de lançamento</em> , aprimoramento (usabilidade e blueprint), <em>ciclo de vida, roadmap técnico, RFPs, gerenciamento de contratos, manutenção de parcerias</em>, lista de materiais, desenvolvimento de treinamento (atendimento ao cliente e força de vendas), tendências regulatórias, famílias: <em> smartphone/ <a href="https://globoplay.globo.com/v/4880435/" target="_blank">modem</a>/ CPE/ smartcard/ IoT/ M2M</em>, representante do país no seguintes <em>fóruns internacionais</em>: PTCRB, CDG e Telefónica Devices.</p>),(<p className="experience-text">Liderou equipe de <em>Go-to-MKT (multidisciplinar)</em>:</p>),(<p>BTL (Below the line): comunicação de produto e tecnologia (briefing) e apoio interno para a assessoria de imprensa: crise e press release.</p>)],
+        content: [1, (<p className="experience-text">Gerente da <em>equipe de Desenvolvimento de Produto</em> (engenheiros/ciência da computação):</p>), (<p>Líder da equipe responsável por tecnologia e produtos: <em>novos serviços e produtos com abordagem centrada no cliente</em>, inovação, backlog do produto, <em>análise de trade-offs de design, análise de risco de lançamento</em> , aprimoramento (usabilidade e blueprint), <em>ciclo de vida, roadmap técnico, RFPs, gerenciamento de contratos, manutenção de parcerias</em>, lista de materiais, desenvolvimento de treinamento (atendimento ao cliente e força de vendas), tendências regulatórias, famílias: <em> smartphone/ <a href="https://globoplay.globo.com/v/4880435/" target="_blank" rel="noreferrer">modem</a>/ CPE/ smartcard/ IoT/ M2M</em>, representante do país no seguintes <em>fóruns internacionais</em>: PTCRB, CDG e Telefónica Devices.</p>),(<p className="experience-text">Liderou equipe de <em>Go-to-MKT (multidisciplinar)</em>:</p>),(<p>BTL (Below the line): comunicação de produto e tecnologia (briefing) e apoio interno para a assessoria de imprensa: crise e press release.</p>)],
         idiom: "portugues"
     },
     {
@@ -614,7 +614,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://www.uff.br/" target="_blank">Universidade Federal Fluminense</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://www.uff.br/" target="_blank" rel="noreferrer">Universidade Federal Fluminense</a></p>)],
         idiom: "portugues"
     },
     {
@@ -644,7 +644,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p><em>Professor Convidado</em> MBA de Engenharia e <a href="http://www.telecomuff.com/uploads/6/9/4/8/6948141/especializac%CC%A7a%CC%83o_em_comunicac%CC%A7o%CC%83es_mo%CC%81veis_-_projeto_rj_.pdf" target="_blank">Pós-Graduação</a>. Ministrava aulas de WLAN, Mobile Devices, Core Network, CDMA2000.</p>)],
+        content: [1, (<p><em>Professor Convidado</em> MBA de Engenharia e <a href="http://www.telecomuff.com/uploads/6/9/4/8/6948141/especializac%CC%A7a%CC%83o_em_comunicac%CC%A7o%CC%83es_mo%CC%81veis_-_projeto_rj_.pdf" target="_blank" rel="noreferrer">Pós-Graduação</a>. Ministrava aulas de WLAN, Mobile Devices, Core Network, CDMA2000.</p>)],
         idiom: "portugues"
     },
     {
@@ -694,7 +694,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://www.movistar.es/" target="_blank">Telefónica Móviles de España</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://www.movistar.es/" target="_blank" rel="noreferrer">Telefónica Móviles de España</a></p>)],
         idiom: "portugues"
     },
     {
@@ -814,7 +814,7 @@ const htmlTextsEnglish = [
         totalItem: 2,
         numberItem: 1,
         typeItem:"mainItems",
-        content: [4, (<p><a href="https://mitsloan.credential.getsmarter.com/6b5c48de-90e3-4c3c-8816-79f7c3913ba2#gs.r8cb6z"  target="_blank">MIT AI Business Application</a></p>), (<p><a href="https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/350/2142.pdf?sequence=1"  target="_blank">FGV Mestrado Economia</a></p>), (<p>FGV MBA Gestão Telecom</p>), (<p>UFF Engenharia Telecom</p>)],
+        content: [4, (<p><a href="https://mitsloan.credential.getsmarter.com/6b5c48de-90e3-4c3c-8816-79f7c3913ba2#gs.r8cb6z"  target="_blank" rel="noreferrer">MIT AI Business Application</a></p>), (<p><a href="https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/350/2142.pdf?sequence=1"  target="_blank" rel="noreferrer">FGV Mestrado Economia</a></p>), (<p>FGV MBA Gestão Telecom</p>), (<p>UFF Engenharia Telecom</p>)],
         idiom: "portugues"
     },
     {
@@ -854,7 +854,7 @@ const htmlTextsEnglish = [
         totalItem: 2,
         numberItem: 1,
         typeItem:"moreItems",
-        content: [4, (<p><a href="https://patents.justia.com/patent/8850463" target="_blank">Patente Celulares com TV Digital</a></p>), (<p><a href="https://github.com/paulovicentevalente" target="_blank">Linguagens Programação<GitHubIcon color="primary" fontSize="medium"/></a></p>), (<p>Bolsa CAPES Alemanha</p>), (<p><a href="https://www.interaction-design.org/paulo-vicente-dutra-da-silva-santos-valente" target="_blank">Design de Serviços e Produtos</a></p>)],
+        content: [4, (<p><a href="https://patents.justia.com/patent/8850463" target="_blank" rel="noreferrer">Patente Celulares com TV Digital</a></p>), (<p><a href="https://github.com/paulovicentevalente" target="_blank" rel="noreferrer">Linguagens Programação<GitHubIcon color="primary" fontSize="medium"/></a></p>), (<p>Bolsa CAPES Alemanha</p>), (<p><a href="https://www.interaction-design.org/paulo-vicente-dutra-da-silva-santos-valente" target="_blank" rel="noreferrer">Design de Serviços e Produtos</a></p>)],
         idiom: "portugues"
     },
     {
@@ -864,7 +864,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://www.tim.com.br/" target="_blank">TIM</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://www.tim.com.br/" target="_blank" rel="noreferrer">TIM</a></p>)],
         idiom: "portugues"
     },
     {
@@ -904,7 +904,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://www.tim.com.br/" target="_blank">TIM</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://www.tim.com.br/" target="_blank" rel="noreferrer">TIM</a></p>)],
         idiom: "english"
     },
     {
@@ -944,7 +944,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://gamersafer.com/" target="_blank">GAMERSAFER</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://gamersafer.com/" target="_blank" rel="noreferrer">GAMERSAFER</a></p>)],
         idiom: "portugues"
     },
     {
@@ -984,7 +984,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text"><a href="https://gamersafer.com/" target="_blank">GAMERSAFER</a></p>)],
+        content: [1, (<p className="experience-text"><a href="https://gamersafer.com/" target="_blank" rel="noreferrer">GAMERSAFER</a></p>)],
         idiom: "english"
     },
     {
@@ -1024,7 +1024,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text">Parceria com <a href="https://www.linkedin.com/in/vera-bier-6a9602/" target="_blank">Bier Innovation & Technology Consulting and Services</a></p>)],
+        content: [1, (<p className="experience-text">Parceria com <a href="https://www.linkedin.com/in/vera-bier-6a9602/" target="_blank" rel="noreferrer">Bier Innovation & Technology Consulting and Services</a></p>)],
         idiom: "portugues"
     },
     {
@@ -1064,7 +1064,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text">Partnership with <a href="https://www.linkedin.com/in/vera-bier-6a9602/" target="_blank">Bier Innovation & Technology Consulting and Services</a></p>)],
+        content: [1, (<p className="experience-text">Partnership with <a href="https://www.linkedin.com/in/vera-bier-6a9602/" target="_blank" rel="noreferrer">Bier Innovation & Technology Consulting and Services</a></p>)],
         idiom: "english"
     },
     {
