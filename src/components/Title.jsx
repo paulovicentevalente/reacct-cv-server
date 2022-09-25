@@ -3,10 +3,13 @@ import texts from "../htmlTextsEnglish";
 import photo from "./images/DSC_8193-modified.png";
 
 
+
 function Title(props) {
 
+    
+
     function isTitle(section) {
-        return section.component === "Title" && (section.idiom === "any" || section.idiom === "english");
+        return section.component === "Title" && (section.idiom === "any" || section.idiom === props.idiom);
     }
 
     const titleItem = texts.filter(isTitle);
@@ -15,6 +18,7 @@ function Title(props) {
 
  
     return (
+        
         <div className="row">
             <div className="col-lg-4">
                 {myPhoto}
@@ -23,7 +27,9 @@ function Title(props) {
                 {myMessage}
                 {myEmail}
             </div>
-        </div>
+            </div>
+           
+            
     );
 }
     

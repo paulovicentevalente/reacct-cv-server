@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import menuItem from "../htmlTextsEnglish";
-import "./Title"
+import Title from "./Title"
+
 
 
 function Navbar() {
@@ -27,7 +28,7 @@ function Navbar() {
 
   
     return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light" >
         
         {completeName.content[1]}
 
@@ -46,6 +47,10 @@ function Navbar() {
                 <li className="nav-item" onClick={handleIdiomClick} key={idiomMenu.id}>{idiomMenu.content[1]}</li>
 
             </ul>
+ 
+        
+            {/* <Title idiom={idiomClicked} Title/> */}
+
         </div>
         </nav>
     )

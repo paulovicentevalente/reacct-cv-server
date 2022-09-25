@@ -2,9 +2,17 @@ import React, { useState , useEffect} from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import messages from "../contactInfoMessages";
 
-function ContactInfo() {
+function ContactInfo(props) {
    
+
+    function isLanguage(section) {
+        return section.idiom === props.idiom;
+    }
+    
+	const names = messages.filter(isLanguage);
+
     const [contact, setContact] = useState({
         fName: "",
         lName: "",
@@ -19,18 +27,18 @@ function ContactInfo() {
 
         if (contact.fName !== "") {
             setContacts(prevContacts => [...prevContacts, contact]);
-            alert(contact.fName + " is subscribed!");
+            alert(contact.fName + " " + names[0].alertSubscribed);
         }
         else if (contact.lName !== "") {
             setContacts(prevContacts => [...prevContacts, contact]);
-            alert(contact.lName + " is subscribed!");
+            alert(contact.lName + " " + names[0].alertSubscribed);
         }
         else if (contact.email !== "") {
             setContacts(prevContacts => [...prevContacts, contact]);
-            alert(contact.email + " is subscribed!");
+            alert(contact.email + " " + names[0].alertSubscribed);
         }
         else
-        alert(" Nothing was subscribed!");
+        alert(names[0].alertNotSubscribed);
 
     };
 
@@ -70,14 +78,14 @@ function ContactInfo() {
 
     
 
-    useEffect(() => { console.log(contacts)}, [contacts]);
+    //useEffect(() => { console.log(contacts)}, [contacts]);
 
     return (
 
 
         <div className="container">
                 
-            <h3 className="big-heading" >Go ahead {contact.fName} {contact.lName}, contact me by subscribing below,</h3>
+            <h3 className="big-heading" >{names[0].MessageOne[0]}{contact.fName} {contact.lName}{names[0].MessageOne[1]}</h3>
 
             <p>{contact.email}</p>
 
@@ -87,13 +95,13 @@ function ContactInfo() {
                     onChange={handleChange}    
                     name="firstName"
                     value={contact.fName}
-                    placeholder="First Name"
+                    placeholder={names[0].fNamePlaceholder}
                 />
                 <input
                     onChange={handleChange}    
                     name="lastName"
                     value={contact.lName}
-                    placeholder="Last Name"               
+                    placeholder={names[0].lNamePlaceholder}               
                 />
                 <input
                     onChange={handleChange}    
@@ -101,8 +109,8 @@ function ContactInfo() {
                     value={contact.email}
                     placeholder="E-mail"                     
                 />
-                <button type="button" onClick={handleAddContacts} >Subscribe</button>
-                <h3 className="big-heading" >...or using Linkedin by pressing <ArrowCircleRightIcon fontSize = "medium" color="primary"/><a aria-label="Linkedin" href="https://www.linkedin.com/in/paulovicentevalente/" target="_blank"><LinkedInIcon color="primary" fontSize = "large"/></a>!</h3>
+                <button type="button" onClick={handleAddContacts}>{names[0].subscribe}</button>
+                {names[0].MessageTwo}
 
             </form>
 

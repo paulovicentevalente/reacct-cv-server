@@ -1,15 +1,22 @@
 import React from "react";
-// import MDCRipple from '@material/ripple';
 import texts from "../htmlTextsEnglish";
 const selector = '.mdc-button, .mdc-icon-button, .mdc-card__primary-action';
 
 
 
-function Education() {
+function Education(props) {
+
+	function isEducation(section) {
+        return section.component === "Skills" && (section.idiom === "any" || section.idiom === props.idiom);
+    }
+    
+	const educ = texts.filter(isEducation);
+
+
     return (
         <div>
 
-		{texts[34].content[1]}
+		{educ[0].content[1]}
 
 
 
@@ -17,39 +24,39 @@ function Education() {
 			<div className="education-column col-lg-3 col-md-6">
 				<div className="mdc-card">
 					<div className="mdc-card__media-content">
-						{texts[35].content[1]}
+						{educ[1].content[1]}
 					</div>
 					<div className="mdc-card__content">
-						{texts[36].content[1]}
-						{texts[36].content[2]}
-						{texts[36].content[3]}
-						{texts[36].content[4]}
+						{educ[2].content[1]}
+						{educ[2].content[2]}
+						{educ[2].content[3]}
+						{educ[2].content[4]}
 					</div>
 				</div>
 			</div>
 			<div className="education-column col-lg-3 col-md-6">
 				<div className="mdc-card">
 					<div className="mdc-card__media-content">
-						{texts[37].content[1]}
+						{educ[3].content[1]}
 					</div>
 					<div className="mdc-card__content">
-						{texts[38].content[1]}
-						{texts[38].content[2]}
-						{texts[38].content[3]}
-						{texts[38].content[4]}
+						{educ[4].content[1]}
+						{educ[4].content[2]}
+						{educ[4].content[3]}
+						{educ[4].content[4]}
 					</div>
 				</div>
 				</div>
 				<div className="education-column col-lg-3 col-md-6">
 				<div className="mdc-card">
 					<div className="mdc-card__media-content">
-						{texts[41].content[1]}
+						{educ[7].content[1]}
 					</div>
 					<div className="mdc-card__content">
-						{texts[42].content[4]}
-						{texts[42].content[2]}
-						{texts[42].content[1]}
-						{texts[42].content[3]}
+						{educ[8].content[4]}
+						{educ[8].content[2]}
+						{educ[8].content[1]}
+						{educ[8].content[3]}
 
 					</div>
 				</div>
@@ -57,13 +64,13 @@ function Education() {
 			<div className="education-column col-lg-3 col-md-6">
 				<div className="mdc-card">
 					<div className="mdc-card__media-content">
-						{texts[39].content[1]}	
+						{educ[5].content[1]}	
 					</div>
 					<div className="mdc-card__content">
-						{texts[40].content[1]}
-						{texts[40].content[2]}
-						{texts[40].content[3]}
-						{texts[40].content[4]}					
+						{educ[6].content[1]}
+						{educ[6].content[2]}
+						{educ[6].content[3]}
+						{educ[6].content[4]}					
 					</div>
 				</div>
 			</div>
