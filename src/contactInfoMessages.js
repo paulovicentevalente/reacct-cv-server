@@ -1,3 +1,4 @@
+import React from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';

@@ -1,3 +1,4 @@
+import React from "react";
 import photo from "./components/images/DSC_8193-modified.png";
 import GitHubIcon from '@mui/icons-material/GitHub';
 const htmlTextsEnglish = [
