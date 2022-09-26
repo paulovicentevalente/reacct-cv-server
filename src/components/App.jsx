@@ -73,12 +73,15 @@ function App() {
                     <Education idiom={idiomClicked} />
             </section>
             
-            <section className="class-section" id="contactInfo">            
+            {/* <section className="class-section" id="contactInfo">            
                 <ContactInfo idiom={idiomClicked} />
-            </section>
+            </section> */}
             
             <footer className="class-section" id="footer">
                 <Footer />
+
+			
+
             </footer>
         </div>
     );

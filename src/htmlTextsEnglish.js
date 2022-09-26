@@ -19,7 +19,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem: "myName",
-        content: [1, (<a className="navbar-brand" href="http://http://www.paulovalente.net/">Paulo Vicente Valente</a>)],
+        content: [1, (<a className="navbar-brand" href="http://www.paulovalente.net/">Paulo Vicente Valente</a>)],
         idiom: "any"
     },
     {
