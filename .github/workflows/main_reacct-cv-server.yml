@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'reacct-cv-server'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_142DD304EC7340FEB06711476F21BF22 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D12F190162D14B3B8FEDB059D39D86A3 }}
           package: .
