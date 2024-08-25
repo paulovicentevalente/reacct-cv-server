@@ -89,7 +89,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem:"myMessage",
-        content: [1, (<h1 className="big-heading">Throughout my career, I contributed to the launch of several technological products that significantly improved and transformed the client experience.</h1>)],
+        content: [1, (<h1 className="big-heading">I exercise leadership, believing that it is my responsibility to develop and motivate teams and that defining purposes, in addition to communicating them, is the fastest way to the success of any project. I believe measurable objectives and good ideas are the path to consistent deliveries. During my career, I have repeatedly practiced innovation, pioneering new technologies, connecting technologies to market needs or customer pain points, enabling the creation of new business models, or promoting new sources of results.</h1>)],
         idiom: "english"
     },
     {
