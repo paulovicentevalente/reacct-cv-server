@@ -7,7 +7,7 @@
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:3000", // Substitua 3000 pela porta que seu servidor React está utilizando
             "webRoot": "${workspaceFolder}/app/reacct-cv-server/src",
-            //"userDataDir": "${workspaceFolder}/.vscode/chrome"
+            //"userDataDir": "${workspaceFolder}/.vscode/chrome"//
         }
     ]
 }
