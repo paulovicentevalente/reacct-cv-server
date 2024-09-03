@@ -11,7 +11,7 @@ const htmlTextsEnglish = [
     //typeItem: subtype of an item
     //content: text to be presented - string - first position is number of text strings
     // idiom: idiom that content is created
-    
+
     {
         id: 1,
         component: "Navbar",
@@ -89,7 +89,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem:"myMessage",
-        content: [1, (<h1 className="big-heading">Throughout my career, I contributed to the launch of several technological products that significantly improved and transformed the client experience.</h1>)],
+        content: [1, (<h1 className="big-heading">I exercise leadership, developing and motivating teams. Define purposes, and communicate them, is the fastest way to the success of any project. I believe measurable objectives and good ideas are the path to consistent deliveries.</h1>)],
         idiom: "english"
     },
     {
@@ -139,7 +139,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Head of Product Management</p>)],
+        content: [1, (<p>Senior Product Management Leader (4 people)</p>)],
         idiom: "english"
     },
     {
@@ -149,7 +149,11 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Management of product and operational labs teams at Contact Center business. Defined lab operation based on <em>business metrics</em> which selected initiatives that <em>improved customer results</em>.</p>)],
+        content: [1, (<p>Provides Business Transformation Outsourcing (BTO) (Contact Center · B2B · Financial Services).
+•	Lab results achieve a <em>5% revenue increase</em> in the client debt collection process.
+•	Revised the customer debt collection process by adding new communication channels like Chat.
+•	Managed product management and operational labs teams (4 people) to drive strategy, achieve results, manage project schedule, and ensure comprehensive documentation.
+•	Developed lab operations utilizing business metrics to select initiatives enhancing customer outcomes.</p>)],
         idiom: "english"
     },
     {
@@ -179,10 +183,10 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [4, (<p className="experience-text">Product Development Manager</p>),
-        (<p className="experience-text sub-position">Division Manager</p>),
-        (<p className="experience-text sub-position">Device Technical Specifications Manager</p>),
-        (<p className = "sub-position">Product Development Consultant</p>)],
+        content: [4, (<p className="experience-text">Product & Projects Development Manager (4 people)</p>),
+        (<p className="experience-text sub-position">Division Manager (8 people)</p>),
+        (<p className="experience-text sub-position">Mobile Device and SIMCard Technical Specifications Manager (3 people)</p>),
+        (<p className = "sub-position">Technical Product Consultant</p>)],
         idiom: "english"
     },
     {
@@ -192,7 +196,16 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescription",
-        content: [1, (<p className="experience-text">Manager of <em>Product Development team</em> (engineers/ computer science):</p>), (<p className="experience-text">Leader of team responsible for technology and products: <em>new services and products with customer-centric approach</em>, innovation, product backlog, <em>design trade-offs analysis, launch risk analysis</em>, enhancement (usability and blueprint), <em>lifecycle, tech roadmap, RFPs, contract management, partnership maintenance</em>, bill of materials, training development (customer care and sales force), regulatory trends, families: <em>smartphone/ <a href='https://globoplay.globo.com/v/4880435/' target='_blank'  rel="noreferrer">modem</a>/ CPE/ smartcard/ IoT/ M2M</em>, country representative at the following <em>International forums</em>: PTCRB, CDG and Telefónica Devices.</p>),(<p className="experience-text">Led <em>Go-to-MKT (multidisciplinary) team</em>:</p>),(<p>BTL (Below the line): product and technnology communication(briefing) and internal press office support: crisis and press release.</p>)],
+        content: [1, (<p className="experience-text">
+        Connect and provide services that make people closer (B2C · B2B · Digital Transformation · Technical Program Management · Software Engineering).
+•	Key projects included the adoption and market launch of Smartwatch Product (several teams/US$2mi), eSIM technology, Operational efficiency improvement (75% improvement in lead time), Mobile application preload partnership (best result between Group Product areas), Smartphone lite product reference design (30% cost reduction / Global Team project), and delivered necessary devices portfolio to 4G technology market launch.
+•	Led an Engineering / Computer Science Product Development team that oversaw various subjects such as market evaluation, technology strategy, project development, professional services, RFPs, PRDs, contract negotiation, user experience, cost evaluation, technical presentations to senior leadership, software development risk analysis, and sales team training.
+•	Led a Go-to-MKT team (multidisciplinary) focused on BTL (Below the line), negotiation of marketing budget, technical blog content, pre-sale campaign resources, and press office support.
+•	Negotiated volume-driven budget contract; both manufacturer and reseller would invest in marketing campaigns based on strategy and market acceptance.
+•	Led SIM card technology, ensuring secure identity management.
+•	Implemented Digital Rights Management (DRM) in products.
+•	Implemented Location Based Services in products.
+•	Evolved from Technical Product Consultant (2003), Technical Specifications Manager (2006 / 4 people), Division Manager Leader (2012 / 2 teams with 9 people) to Product Development Manager (5 people), driving impactful outcomes to company bets and collaborating with partner teams across the organization and product areas (PAs).</p>)],
         idiom: "english"
     },
     {
@@ -222,7 +235,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Invited Professor</p>)],
+        content: [1, (<p>MBA and Post Graduation Invited Professor</p>)],
         idiom: "english"
     },
     {
@@ -232,7 +245,8 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Engineering MBA and <a href="http://www.telecomuff.com/uploads/6/9/4/8/6948141/especializac%CC%A7a%CC%83o_em_comunicac%CC%A7o%CC%83es_mo%CC%81veis_-_projeto_rj_.pdf" target="_blank" rel="noreferrer">Post Graduation</a> <em>Invited Professor</em>. Provided classes on WLAN, Mobile Devices, Core Network, CDMA2000.</p>)],
+        content: [1, (<p>Bring knowledge to students (Education).
+•	Delivered classes on mobile devices, Wi-Fi and 3G mobile network technology, sharing expertise and insights.</p>)],
         idiom: "english"
     },
     {
@@ -262,7 +276,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Solutions Manager</p>)],
+        content: [1, (<p>Solutions Team Leader (5 people)</p>)],
         idiom: "english"
     },
     {
@@ -272,7 +286,9 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Increase <em>service retention</em> due to the development of <em>customized solutions</em> for corporate clients. <em>Remote management experience</em> with team in four states of Brazil, <em>inventory management</em>, <em>client-oriented</em> approach. <font size="1">*Telefônica Celular is one of the companies that formed the current Vivo.</font></p>)],
+        content: [1, (<p>Provide technical solutions using mobile connectivity (B2B · Mobile technology · Applied engineering · Technical Leadership).
+•	Planned B2B devices portfolio based on market demands.
+•	Increase service retention with customized technology solutions for corporate markets, regional leadership, including four states of Brazil, mobile device inventory management, and a client-oriented approach. <font size="1">*Telefônica Celular is one of the companies that formed the current Vivo.</font></p>)],
         idiom: "english"
     },
     {
@@ -312,7 +328,8 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p><em>International professional experience</em> in Madrid. Consultant to <em>prepaid services</em> deployment at Guatemala and El Salvador.</p>)],
+        content: [1, (<p>Infrastructure robustness and capacity increase (Network infrastructure · IP · Messaging service).
+•	International experience in Spain Headquarters: Project and deployment of prepaid networks for Guatemala and El Salvador.</p>)],
         idiom: "english"
     },
     {
@@ -352,7 +369,9 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Responsible for: highly complex infrastructure <em>engineering project deployment, implementation and integration</em> in mobile network and development of <em>RFPs</em>. <font size="1">*Telefônica Celular is one of the companies that formed the current Vivo.</font></p>)],
+        content: [1, (<p>Infrastructure robustness and capacity increase (Network infrastructure · IP · Messaging service).
+•	Responsible for designing highly complex mobile network infrastructure (Identity and service management database – HLR & Messaging services), managing projects, ideating technical RFP, deploying mobile phone IP network, troubleshooting, and developing new technologies.
+<font size="1">*Telefônica Celular is one of the companies that formed the current Vivo.</font></p>)],
         idiom: "english"
     },
     {
@@ -502,7 +521,7 @@ const htmlTextsEnglish = [
         totalItem: 1,
         numberItem: 0,
         typeItem:"myMessage",
-        content: [1, (<h1 className="big-heading">Na minha carreira, contribuí para o lançamento de diversos produtos tecnológicos que melhoraram e transformaram significativamente a experiência do cliente.</h1>)],
+        content: [1, (<h1 className="big-heading">Exerço a liderança acreditando que é minha responsabilidade desenvolver e motivar equipes, e que definir propósitos, além de comunicá-los, é o caminho mais rápido para o sucesso de qualquer projeto. Acredito que objetivos mensuráveis e boas ideias são o caminho para entregas consistentes.</h1>)],
         idiom: "portugues"
     },
     {
@@ -552,7 +571,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Superintendente de Gestão de Produto</p>)],
+        content: [1, (<p>Gerente Sênior Equipe de Produto (4 pessoas)</p>)],
         idiom: "portugues"
     },
     {
@@ -562,7 +581,11 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Gestão da equipe de produtos no negócio de Contact Center. Definiu a operação do laboratório com base em <em>métricas de negócios</em> que selecionaram iniciativas que <em>melhoraram os resultados do cliente</em>.</p>)],
+        content: [1, (<p>Fornecer Business Transformation Outsourcing (BTO)
+(Central de Atendimento · B2B • Serviços financeiros).
+•	Os resultados do laboratório alcançaram um aumento de receita de 5% no processo de cobrança de crédito do cliente.
+•	Gerenciamento de produtos e laboratórios operacionais para impulsionar a estratégia de produto, alcançar resultados e desenvolver documentação.
+•	Implementadas operações de laboratório utilizando métricas de negócios para selecionar iniciativas que melhoraram os resultados dos clientes.</p>)],
         idiom: "portugues"
     },
     {
@@ -592,9 +615,9 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [4, (<p className="experience-text">Gerente de Gestão de Produtos</p>),
-        (<p className="experience-text sub-position">Gerente de Divisão</p>),
-        (<p className="experience-text sub-position">Gerente de Especificação Técnica de Dispositivos</p>),
+        content: [4, (<p className="experience-text">Gerente de Gestão de Produtos (4 pessoas)</p>),
+        (<p className="experience-text sub-position">Gerente de Divisão (8 pessoas)</p>),
+        (<p className="experience-text sub-position">Gerente de Especificação Técnica de Dispositivos e Simcards (3 pessoas)</p>),
         (<p className = "sub-position">Consultor de Desenvolvimento de Produto</p>)],
         idiom: "portugues"
     },
@@ -605,7 +628,14 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescription",
-        content: [1, (<p className="experience-text">Gerente da <em>equipe de Desenvolvimento de Produto</em> (engenheiros/ciência da computação):</p>), (<p>Líder da equipe responsável por tecnologia e produtos: <em>novos serviços e produtos com abordagem centrada no cliente</em>, inovação, backlog do produto, <em>análise de trade-offs de design, análise de risco de lançamento</em> , aprimoramento (usabilidade e blueprint), <em>ciclo de vida, roadmap técnico, RFPs, gerenciamento de contratos, manutenção de parcerias</em>, lista de materiais, desenvolvimento de treinamento (atendimento ao cliente e força de vendas), tendências regulatórias, famílias: <em> smartphone/ <a href="https://globoplay.globo.com/v/4880435/" target="_blank" rel="noreferrer">modem</a>/ CPE/ smartcard/ IoT/ M2M</em>, representante do país no seguintes <em>fóruns internacionais</em>: PTCRB, CDG e Telefónica Devices.</p>),(<p className="experience-text">Liderou equipe de <em>Go-to-MKT (multidisciplinar)</em>:</p>),(<p>BTL (Below the line): comunicação de produto e tecnologia (briefing) e apoio interno para a assessoria de imprensa: crise e press release.</p>)],
+        content: [1, (<p className="experience-text">Conectar e fornecer serviços que tornem as pessoas mais próximas (B2C • B2B • Transformação Digital · Telecomunicações· Gestão de Identidade Digital).
+•	Membro de Comitê Global de Requerimentos para Indústria de Smartphones e outros dispositivos celulares.
+•	Alguns principais projetos incluíram a adoção e o lançamento no mercado do produto Smartwatch (Projeto Global), tecnologia eSIM (Projeto Corporativo Internacional trouxe economia por escala), melhoria da eficiência operacional (melhoria de 75% no lead time), parceria de pré-carregamento de aplicativos móveis, design de referência do produto Smartphone Lite (30% de redução de custo) e disponibilização de portfólio completo de produtos celulares para o lançamento da tecnologia 4G.
+•	Liderou uma equipe de Desenvolvimento de Produto de Engenharia que supervisionou vários temas, como estratégia de tecnologia, desenvolvimento de projetos, RFPs, negociação de contratos, experiência do usuário, avaliação de custos, apresentações técnicas para a liderança sênior, análise de risco de software e treinamento da equipe de vendas.
+•	Liderou uma equipe de Go-to-MKT (multidisciplinar) focada em BTL (Below the line), negociação de orçamento de marketing, conteúdo técnico do blog, recursos de campanha de pré-venda e suporte de assessoria de imprensa.
+•	Líder da Tecnologia de cartão SIM Card, garantindo uma gestão de identidade segura.
+•	Evoluiu de Consultor para Líder Sênior, demonstrando excepcional capacidade de crescimento e liderança.
+</p>)],
         idiom: "portugues"
     },
     {
@@ -635,7 +665,9 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Professor Convidado</p>)],
+        content: [1, (<p>
+Professor convidado de MBA e Pós-Graduação
+</p>)],
         idiom: "portugues"
     },
     {
@@ -645,7 +677,9 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p><em>Professor Convidado</em> MBA de Engenharia e <a href="http://www.telecomuff.com/uploads/6/9/4/8/6948141/especializac%CC%A7a%CC%83o_em_comunicac%CC%A7o%CC%83es_mo%CC%81veis_-_projeto_rj_.pdf" target="_blank" rel="noreferrer">Pós-Graduação</a>. Ministrava aulas de WLAN, Mobile Devices, Core Network, CDMA2000.</p>)],
+        content: [1, (<p>Educação
+•	Proferiu aulas sobre dispositivos móveis e tecnologia móvel 3G, compartilhando conhecimentos e insights.
+</p>)],
         idiom: "portugues"
     },
     {
@@ -675,7 +709,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Gerente de Soluções</p>)],
+        content: [1, (<p>Gerente de Equipe de Soluções (5 pessoas)</p>)],
         idiom: "portugues"
     },
     {
@@ -685,7 +719,9 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Aumentar a <em>retenção</em> por meio do desenvolvimento de <em>soluções customizadas</em> para clientes corporativos. <em>Experiência de gestão remota</em> com equipe em quatro estados do Brasil, <em>gestão de estoque</em>, abordagem <em>orientada para o cliente</em>.  <font size="1">*A Telefônica Celular é uma das empresas que formaram a atual Vivo.</font></p>)],
+        content: [1, (<p>Fornecer soluções a clientes usando conectividade móvel (B2B • Tecnologia móvel · Engenharia aplicada).
+•	Portfólio de dispositivos celulares para B2B planejado com base nas demandas do mercado.
+•	Aumentar a retenção de clientes por meio do desenvolvimento de soluções personalizadas para mercados corporativos, liderança regional, incluindo quatro estados do Brasil, gerenciamento de estoque de dispositivos móveis e uma abordagem orientada ao cliente. <font size="1">*A Telefônica Celular é uma das empresas que formaram a atual Vivo.</font></p>)],
         idiom: "portugues"
     },
     {
@@ -725,7 +761,8 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p><em>Experiência profissional internacional</em> em Madrid. Consultor para implantação de <em>serviços pré-pagos</em> na Guatemala e El Salvador.</p>)],
+        content: [1, (<p>Robustez da infraestrutura e aumento da capacidade (Infraestrutura de rede mõvel celular).
+•	Experiência internacional na sede na Espanha: Projeto e implantação de redes pré-pagas para Guatemala e El Salvador.</p>)],
         idiom: "portugues"
     },
     {
@@ -765,7 +802,8 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Responsável por: infraestrutura de alta complexidade <em>implantação, implementação e integração de projeto de engenharia</em> em redes móveis celulares e desenvolvimento de <em>RFPs</em>. <font size="1">*A Telefônica Celular é uma das empresas que formaram a atual Vivo.</font></p>)],
+        content: [1, (<p>Robustez da infraestrutura e aumento da capacidade (Infraestrutura de rede · IP · Serviço de mensagens).
+•	Responsável por projetar e integrar infraestrutura de rede móvel de alta complexidade, redação técnica de RFP, implantação de equipamentos de rede de telefonia móvel/IP e desenvolvimento de novas tecnologias. <font size="1">*A Telefônica Celular é uma das empresas que formaram a atual Vivo.</font></p>)],
         idiom: "portugues"
     },
     {
@@ -875,7 +913,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 1,
         typeItem:"date",
-        content: [1, (<p className="experience-text">2022 até o momento</p>)],
+        content: [1, (<p className="experience-text">2022 até maio 2024</p>)],
         idiom: "portugues"
     },
     {
@@ -885,7 +923,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Especialista de Produtos</p>)],
+        content: [1, (<p>Especialista de Produto</p>)],
         idiom: "portugues"
     },
     {
@@ -895,7 +933,14 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Responsável pelo Produto de <em>Plataformas IoT</em> na Diretoria de Marketing <em>IoT & 5G</em>.</p>)],
+        content: [1, (<p>Ajudar as empresas a alcançarem resultados com tecnologias inovadoras (B2B • Inteligência Artificial · Internet das Coisas).
+•	Liderou o desenvolvimento até o lançamento comercial de produto tecnológico (IoT para automação industrial), supervisionando negociações de contrato, treinando equipes executivas e de vendas.
+•	Criou estratégia de parcerias para alocação de integradores a diferentes tipos de clientes e demandas.
+•	Gerenciou cotidianamente a liderança do design técnico e comercial do produto.
+•	Alinhou aspectos estratégicos e comerciais com o desenho técnico das soluções.
+•	Facilitou a colaboração entre stakeholders para atingir objetivos e aprimorar a estratégia do produto.
+•	Liderou negociações contratuais com parceiros e fornecedores.
+</p>)],
         idiom: "portugues"
     },
     {
@@ -915,7 +960,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 1,
         typeItem:"date",
-        content: [1, (<p className="experience-text">2022 to date</p>)],
+        content: [1, (<p className="experience-text">2022 to may 2024</p>)],
         idiom: "english"
     },
     {
@@ -935,7 +980,14 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>As <em>Product Manager</em>, I am responsible for <em>IoT Platforms</em> at Marketing <em>IoT & 5G</em> Directory.</p>)],
+        content: [1, (<p>Help companies to achieve results with innovative technology (·B2B ·Artificial Intelligence ·Internet of Things).
+•	Led the end-to-end development and deployment of a tech (IoT) product, spreading culture, overseeing contract negotiations, sales training, pricing, and successful product launch.
+•	Created the partnership strategy to manage multiple IT integrators to support product delivery.
+•	Managed technical and design direction daily.
+•	Aligned strategy and commercial aspects with the technical design of solutions.
+•	Facilitated collaboration among stakeholders to meet strategic goals and enhance product strategy.
+•	Led contract negotiations with partners and vendors.
+•	Delivered client presentations to drive market adoption and address short-term and long-term roadmap requirements.</p>)],
         idiom: "english"
     },
     {
@@ -975,7 +1027,11 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Conectar a Gamersafer com as operadoras móveis brasileiras e promover solução de White Label de <em>Campeonatos Esports</em>.</p>)],
+        content: [1, (<p>Tecnologia líder mundial para garantir a segurança em jogos on-line (Jogos on-line).
+•	Estabeleceu conexões entre a Gamersafer e o ecossistema das operadoras móveis brasileiras.
+•	Promoveu soluções de Esports White Label para a empresa.
+•	Conduziu apresentações a clientes para facilitar a adoção no mercado.
+</p>)],
         idiom: "portugues"
     },
     {
@@ -1015,7 +1071,10 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Connect Gamersafer with Brazilian mobile operators and promote White Label <em>Esports Championship</em> Solution.</p>)],
+        content: [1, (<p>World-leading technology to scale safety and fair play (Gaming).
+•	Established connections between Gamersafer and the Brazilian mobile operators ecosystem.
+•	Promoted White Label Esports solutions for the company.
+•	Conducted client presentations to facilitate market adoption.</p>)],
         idiom: "english"
     },
     {
@@ -1025,14 +1084,14 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text">Parceria com <a href="https://www.linkedin.com/in/vera-bier-6a9602/" target="_blank" rel="noreferrer">Bier Innovation & Technology Consulting and Services</a></p>)],
+        content: [1, (<p className="experience-text">Empreendedor</p>)],
         idiom: "portugues"
     },
     {
         id: 102,
         component:"Experience",
-        item: "BierInnovation",
         totalItem: 4,
+        item: "BierInnovation",
         numberItem: 1,
         typeItem:"date",
         content: [1, (<p className="experience-text">2019 a 2020</p>)],
@@ -1045,7 +1104,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Parceiro de Negócios</p>)],
+        content: [1, (<p>Parceria de Consultoria e Serviços de Tecnologia</p>)],
         idiom: "portugues"
     },
     {
@@ -1055,7 +1114,10 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Trazer para o mercado brasileiro soluções de <em>inteligência artificial</em> para apoiar <em>decisões jurídicas</em>. Produziu avaliação de segmentos de negócios, mapeamento do ambiente jurídico brasileiro, seleção de soluções/parceiros e geração de <em>leads</em>.</p>)],
+        content: [1, (<p>Promover a tecnologia de IA no mercado brasileiro (Inteligência artificial).
+•	Por meio de parceria de negócios, ofertou solução de IA focada em departamentos jurídicos trazendo aumento na eficiência operacional por meio de insights.
+•	Conduziu-se análises de segmentos de negócios.
+•	Desenvolveu-se características e especificações do produto.</p>)],
         idiom: "portugues"
     },
     {
@@ -1065,7 +1127,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 0,
         typeItem:"company",
-        content: [1, (<p className="experience-text">Partnership with <a href="https://www.linkedin.com/in/vera-bier-6a9602/" target="_blank" rel="noreferrer">Bier Innovation & Technology Consulting and Services</a></p>)],
+        content: [1, (<p className="experience-text">Entrepeneur</p>)],
         idiom: "english"
     },
     {
@@ -1085,7 +1147,7 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 2,
         typeItem:"jobName",
-        content: [1, (<p>Business Partner</p>)],
+        content: [1, (<p>Business Development Partner</p>)],
         idiom: "english"
     },
     {
@@ -1095,7 +1157,10 @@ const htmlTextsEnglish = [
         totalItem: 4,
         numberItem: 3,
         typeItem:"jobDescripton",
-        content: [1, (<p>Bring to the Brazilian market <em>artificial intelligence</em> solutions to support <em>legal decisions</em>. Produced business segment evaluation, Brazilian legal environment mapping, solution/partner selection, and <em>lead</em> generation.</p>)],
+        content: [1, (<p>Promote AI technology in the Brazilian market (Artificial Intelligence).
+•	Through business partnership, an AI solution focused on legal departments offered increased operational efficiency.
+•	Conducted business segment analysis, including mapping of the Brazilian legal landscape.
+•	Outlined product features and specifications.</p>)],
         idiom: "english"
     },
 

@@ -16,9 +16,9 @@ function Footer(props) {
 
   return (
     <footer>
-      <p>Copyrgiht ⓒ {year}</p>
+      <p>Copyright ⓒ {year}</p>
     </footer>
   );
   }
-    
+
 export default Footer;
