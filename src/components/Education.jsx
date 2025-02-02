@@ -1,85 +1,50 @@
 import React from "react";
 import texts from "../htmlTextsEnglish";
-const selector = '.mdc-button, .mdc-icon-button, .mdc-card__primary-action';
-
-
 
 function Education(props) {
 
-	function isEducation(section) {
+    function isEducation(section) {
         return section.component === "Skills" && (section.idiom === "any" || section.idiom === props.idiom);
     }
-    
-	const educ = texts.filter(isEducation);
 
+    const educ = texts.filter(isEducation);
+
+        //If educ is empty or undefined exit the component.
+        if (!educ || educ.length === 0) {
+          return <div>No education data to display</div>;
+        }
+
+    const title = educ.find(item => item.type === 'title');
+
+    // Filter educ data to create items.
+    const cards = educ.filter(item => item.type === 'card');
 
     return (
-        <div>
+        <div id="skills">
+          {title && title.content && title.content.displayText ?  title.content.displayText : ''}
 
-		{educ[0].content[1]}
-
-
-
-		<div className=" row">
-			<div className="education-column col-lg-3 col-md-6">
-				<div className="mdc-card">
-					<div className="mdc-card__media-content">
-						{educ[1].content[1]}
-					</div>
-					<div className="mdc-card__content">
-						{educ[2].content[1]}
-						{educ[2].content[2]}
-						{educ[2].content[3]}
-						{educ[2].content[4]}
-					</div>
-				</div>
-			</div>
-			<div className="education-column col-lg-3 col-md-6">
-				<div className="mdc-card">
-					<div className="mdc-card__media-content">
-						{educ[3].content[1]}
-					</div>
-					<div className="mdc-card__content">
-						{educ[4].content[1]}
-						{educ[4].content[2]}
-						{educ[4].content[3]}
-						{educ[4].content[4]}
-					</div>
-				</div>
-				</div>
-				<div className="education-column col-lg-3 col-md-6">
-				<div className="mdc-card">
-					<div className="mdc-card__media-content">
-						{educ[7].content[1]}
-					</div>
-					<div className="mdc-card__content">
-						{educ[8].content[4]}
-						{educ[8].content[2]}
-						{educ[8].content[1]}
-						{educ[8].content[3]}
-
-					</div>
-				</div>
-			</div>
-			<div className="education-column col-lg-3 col-md-6">
-				<div className="mdc-card">
-					<div className="mdc-card__media-content">
-						{educ[5].content[1]}	
-					</div>
-					<div className="mdc-card__content">
-						{educ[6].content[1]}
-						{educ[6].content[2]}
-						{educ[6].content[3]}
-						{educ[6].content[4]}					
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
-   
-    	</div>
+            <div className="row">
+                {cards.map((card, index) => (
+                <div className="education-column col-lg-3 col-md-6" key={index}>
+                    <div className="mdc-card">
+                    {card && card.content && card.content.image && (
+                        <div className="mdc-card__media-content">
+                            {card.content.image}
+                        </div>
+                    )}
+                         <div className="mdc-card__content">
+                            {card && card.content && card.content.title && (
+                             <h3>{card.content.title}</h3>
+                             )}
+                           {card && card.content && card.content.description &&  card.content.description.map((description, index) => (
+                              <p key={index}> {description}</p>
+                             ))}
+                        </div>
+                    </div>
+                </div>
+                ))}
+            </div>
+        </div>
     );
 }
 
